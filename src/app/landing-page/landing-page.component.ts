@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { AboveTheFoldComponent } from "./above-the-fold/above-the-fold.component";
-import { DescriptionComponent } from '../description/description.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { MapComponent } from './map/map.component';
+import { DescriptionComponent } from './description/description.component';
 
 @Component({
   selector: 'app-landing-page',
