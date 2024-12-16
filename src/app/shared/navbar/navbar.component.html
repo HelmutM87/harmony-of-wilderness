@@ -1,1 +1,24 @@
-<p>navbar works!</p>
+<div class="navbar">
+    <div class="first-section">
+        <!-- <a href="#">Logo</a> -->
+        <span>Logo</span>
+    </div>
+
+    <div class="second-section">
+        <!-- <div>DE | EN | ES</div> -->
+        <div class="language">
+            <a (click)="switchLanguage('de')" [class.active]="currentLang === 'de'" class="language-link">DE</a> |
+            <a (click)="switchLanguage('en')" [class.active]="currentLang === 'en'" class="language-link">EN</a> |
+            <a (click)="switchLanguage('es')" [class.active]="currentLang === 'es'" class="language-link">ES</a>
+          </div>
+        <div><mat-icon>paid</mat-icon>
+            <div class="buttons" (click)="openDialogPrice()">{{ 'PRICES' | translate }}</div>
+        </div>
+        <div><mat-icon>calendar_month</mat-icon>
+            <div class="buttons" (click)="openDialogCalendar()">{{ 'CALENDAR' | translate }}</div>
+        </div>
+        <div><mat-icon>contact_support</mat-icon>
+            <a href=" #footer-component">{{ 'CONTACT' | translate }}</a>
+        </div>
+    </div>
+</div>
