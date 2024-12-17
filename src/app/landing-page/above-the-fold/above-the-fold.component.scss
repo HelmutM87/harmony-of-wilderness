@@ -1,0 +1,57 @@
+.header-background {
+    background-image: url('./../../../assets/img/chaco-background-small.jpg');
+    height: 100vh;
+    display: flex;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    >div{
+        text-align: center;
+       >h1{
+        padding-top: 150px;
+        color: rgb(73, 74, 43);
+        // filter: drop-shadow(30px 10px 4px #494a2b);
+    }
+
+   
+    }
+    
+    
+
+    // >div{
+    //     // background-image: url('./../../assets/img/cabin-kitchen.JPG');
+    //     position: absolute;
+    //     background-size: cover;
+    //     width: 50%;
+    //     // height: 400px;
+    //     bottom: 0;
+    //     >img{
+    //         height: 100%;
+    //         width: 100%;
+        
+    // }
+    // }
+    
+
+}
+
+p{
+    text-align: center;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+
+.bottom-description-box{
+    // padding: 24px;
+    // position: absolute;
+    // margin-bottom: 48px;
+background-color: white;
+// height: 140px;
+width: 100%;
+
+}
